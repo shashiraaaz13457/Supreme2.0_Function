@@ -6,29 +6,22 @@ int main(){
     cout<<"Enter the number: "<<endl;
     cin>>n;
 
-    for (int row = 0; row < n; row++)
-    {   
-        int ans ;
-        for (int col = 0; col < 2*row+1; col++)
+    for (int i = 0; i < n; i++)
+    {
+        int cond = i<=n/2 ? 2*i : 2*(n-i-1);
+        for (int col = 0; col <= cond; col++)
         {
-            if (col == 0||col == 2*row)
+            if (col <= cond/2)
             {
-                cout<<"*";
+                cout<<col+1;
             }
-            
             else{
-                ans = col;
-                cout<<ans;
+                cout<<cond-col+1;
             }
             
         }
-        // for (int reverse = ans; reverse > 1; )
-        // {
-        //     reverse--;
-        //     cout<<reverse;
-        // }
         cout<<endl;
-        
     }
+    
     
 }
