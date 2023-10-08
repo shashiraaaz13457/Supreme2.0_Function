@@ -18,5 +18,5 @@ int main(){
     cin>>n;
 
     // fact(n);
-    cout<<fact(n)<<endl;
+    cout<<"Factorial is: "<<fact(n)<<endl;
 }
