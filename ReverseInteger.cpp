@@ -23,6 +23,6 @@ int main(){
         
         x = x/10;
     }
-    //This is used so that the number will be in -ve if the negative input is there and positive if the positive output is there.
+    //This is used so that the number will be in -ve if the negative input is there and positive if the positive output is there..
     isNeg ?cout<<"Reversed number is: "<<-ans<<endl:cout<<"Reversed number is: "<<ans;
 }
