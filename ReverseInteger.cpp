@@ -13,7 +13,7 @@ int main(){
     if (x < 0)
     {
         isNeg = true;
-        //Here the value of x turned into positive value.
+        //Here the value of x turned into positive value..
         x = -x;
     }
     
